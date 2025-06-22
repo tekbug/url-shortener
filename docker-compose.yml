@@ -12,7 +12,7 @@ services:
       - data:/var/lib/postgresql/data
 
   url-shortener:
-    build: ./url-shortener
+    build: ./spring-boot-url-shortener
     container_name: url-shortener
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/postgres
