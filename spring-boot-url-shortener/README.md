@@ -16,13 +16,9 @@ URL Shortener is a service that shortens a long URL into a short URL which is ea
 * Bootstrap CSS
 
 ```shell
-# To build Docker image with default name sivaprasadreddy/spring-boot-url-shortener
+# To build Docker image
 $  ./mvnw spring-boot:build-image
 
 # To build Docker image with custom name
-$  ./mvnw spring-boot:build-image -DdockerImageName=your_name/spring-boot-url-shortener
-
-# To run the application using Docker Compose
-$ cd docker
-$ docker compose up -d
+$  ./mvnw spring-boot:build-image -DdockerImageName=your_image_name/spring-boot-url-shortener
 ```
